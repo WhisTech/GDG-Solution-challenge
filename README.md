@@ -1,8 +1,8 @@
 # 🚀 Smart Supply Chain Platform
 
-![Stars](https://img.shields.io/github/stars/WhisTech/GDG-Solution-challenge?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/WhisTech/GDG-Solution-challenge?style=for-the-badge)
-![License](https://img.shields.io/github/license/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
+![Forks](https://img.shields.io/github/forks/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
+![License](https://img.shields.io/github/license/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
 ![Node.js CI](https://img.shields.io/github/workflow/status/<YOUR_GITHUB>/<YOUR_REPO>/Node.js%20CI?style=flat-square)
 
 ---
@@ -10,6 +10,56 @@
 ## 📌 Description
 
 A modern, AI-augmented supply chain management platform for enterprises & SMEs, featuring real-time inventory, multi-party orders, supplier management, global logistics tracking, and demand forecasting with neural networks. Built with React, Vite, Tailwind, Node.js/Express, and Sequelize ORM.
+
+---
+
+## 🚀 Live Demo
+
+- **Frontend:** [https://bts-supply-chain-frontend.onrender.com](https://bts-supply-chain-frontend.onrender.com)
+- **Backend:** [<YOUR_BACKEND_DEPLOYMENT_URL>](<YOUR_BACKEND_DEPLOYMENT_URL>) <!-- Replace with actual backend link once available -->
+- 🧪 **Try it out!** Register or log in to explore the dashboard, inventory, orders, and analytics features in action.
+
+---
+
+## 💻 Local Development
+
+Follow these steps to set up the project for local development:
+
+### Backend
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/<YOUR_GITHUB>/<YOUR_REPO>.git
+
+# 2. Go to backend directory
+cd backend
+
+# 3. Install dependencies
+npm install
+
+# 4. Create the .env file
+cp .env.example .env
+
+# 5. Start the backend server
+npm start
+```
+
+- Backend will run at: **http://localhost:5000** (default)
+
+### Frontend
+
+```bash
+# 1. Open a new terminal window
+cd frontend
+
+# 2. Install frontend dependencies
+npm install
+
+# 3. Start the frontend development server
+npm run dev
+```
+
+- Frontend will run at: **http://localhost:5173** (default)
 
 ---
 
@@ -29,61 +79,36 @@ A modern, AI-augmented supply chain management platform for enterprises & SMEs, 
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Vite, Tailwind CSS, Lucide icons, Axios, React Leaflet
-- **Backend**: Node.js, Express, Sequelize ORM, Postgres/MySQL/SQLite
-- **AI**: Google Generative AI API (Gemini)
-- **CI/CD & Hosting**: Render.com, YAML pipeline
-- **Other**: dotenv, JWT authentication, CORS, bcrypt
+- **Frontend:** React, Vite, Tailwind CSS, Lucide icons, Axios, React Leaflet
+- **Backend:** Node.js, Express, Sequelize ORM, Postgres/MySQL/SQLite
+- **AI:** Google Generative AI API (Gemini)
+- **CI/CD & Hosting:** Render.com, YAML pipeline
+- **Other:** dotenv, JWT authentication, CORS, bcrypt
 
 ---
 
 ## 📸 Screenshots
 
-Add your screenshots here:
+### 🏠 Dashboard
 
-- `/frontend/src/assets/hero.png`  
-- `/frontend/src/assets/react.svg`, `/frontend/src/assets/vite.svg`  
-> **(Place your screenshots in `./frontend/src/assets/` and reference them here!)**
+![Dashboard](./assets/dashboard.png)
 
----
+### 🔐 Login Page
 
-## ⚙️ Installation
+![Login](./assets/main%20login%20page.png)
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/<YOUR_GITHUB>/<YOUR_REPO>.git
+### 📊 Analytics / Visualization
 
-# 2. Install backend dependencies
-cd backend
-npm install
-
-# 3. Create a .env file in ./backend (see .env.example)
-cp .env.example .env
-
-# 4. Install frontend dependencies
-cd ../frontend
-npm install
-
-# 5. Run the backend server
-cd ../backend
-npm start
-
-# 6. Start the frontend (in a new terminal)
-cd ../frontend
-npm run dev
-```
+![Visualization](./assets/Visualization%20Dashboard.png)
 
 ---
 
-## 🚀 Quick Start
+## 🚦 Quick Start
 
-```bash
-# One-liner (from project root, for dev testing)
-(cd backend && npm install && npm start) & (cd frontend && npm install && npm run dev)
-```
-
-- Backend: http://localhost:5000
-- Frontend: http://localhost:5173
+- **Clone the repo** and set up environment variables as shown above.
+- Follow the steps in the **Local Development** section for the backend and frontend.
+- Access the live frontend at [https://bts-supply-chain-frontend.onrender.com](https://bts-supply-chain-frontend.onrender.com)
+- You can update environment variables for your own deployment in `backend/.env` and `frontend/.env`.
 
 ---
 
@@ -120,18 +145,18 @@ npm run dev
 ## 🔗 API Endpoints
 
 ### Auth
-- `POST /api/auth/register` &mdash; Register new user
-- `POST /api/auth/login` &mdash; Login and receive JWT
+- `POST /api/auth/register` – Register new user
+- `POST /api/auth/login` – Login and receive JWT
 
 ### Products / Inventory
-- `GET /api/products` &mdash; List products _(auth required)_
-- `POST /api/products` &mdash; Add product _(Admins/Suppliers)_
-- `GET /api/inventory` &mdash; List inventory _(auth required)_
-- `PUT /api/inventory/update` &mdash; Update stock _(Admin/WM/Supplier)_
+- `GET /api/products` – List products _(auth required)_
+- `POST /api/products` – Add product _(Admins/Suppliers)_
+- `GET /api/inventory` – List inventory _(auth required)_
+- `PUT /api/inventory/update` – Update stock _(Admin/WM/Supplier)_
 
 ### Orders & PO
-- `GET/POST /api/orders` &mdash; Manage sales orders
-- `GET/POST /api/purchase_orders` &mdash; Manage purchase orders
+- `GET/POST /api/orders` – Manage sales orders
+- `GET/POST /api/purchase_orders` – Manage purchase orders
 
 ### Suppliers & Warehouses
 - `GET/POST /api/suppliers`
@@ -140,8 +165,8 @@ npm run dev
 ### Shipments & Demand
 - `GET /api/shipments`
 - `POST /api/shipments/:id/update`
-- `GET /api/demand` &mdash; Historical demand _(Admin/Supplier)_
-- `POST /api/demand/predict` &mdash; AI stock forecasting
+- `GET /api/demand` – Historical demand _(Admin/Supplier)_
+- `POST /api/demand/predict` – AI stock forecasting
 
 > All routes require JWT. See backend for full details.
 
@@ -165,4 +190,4 @@ See [`LICENSE`](./LICENSE) for more info.
 
 ---
 
-> _Replace `<YOUR_GITHUB>/<YOUR_REPO>` in badge/image/clone URLs with your actual GitHub username and repo name._
+> _Replace `<YOUR_GITHUB>/<YOUR_REPO>` and `<YOUR_BACKEND_DEPLOYMENT_URL>` with your actual GitHub username, repo name, and backend deployment link._
