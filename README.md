@@ -188,9 +188,4 @@ All contributions, bug reports, and suggestions welcome!
 
 ## 📜 License
 
-Distributed under the ISC License.  
-See [`LICENSE`](./LICENSE) for more info.
-
----
-
-> _Replace `<YOUR_GITHUB>/<YOUR_REPO>` and `<YOUR_BACKEND_DEPLOYMENT_URL>` with your actual GitHub username, repo name, and backend deployment link._
+This project is licensed under the MIT License.
