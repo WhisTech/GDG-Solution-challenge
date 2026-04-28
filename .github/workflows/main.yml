@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -11,13 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+      - name: Install backend
+        run: cd backend && npm install
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run test/build
-        run: echo "CI is running successfully"
+      - name: Install frontend
+        run: cd frontend && npm install
