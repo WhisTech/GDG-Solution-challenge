@@ -1,9 +1,18 @@
 # 🚀 Smart Supply Chain Platform
 
+<<<<<<< HEAD
 ![Stars](https://img.shields.io/github/stars/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
 ![License](https://img.shields.io/github/license/<YOUR_GITHUB>/<YOUR_REPO>?style=flat-square)
 ![Node.js CI](https://img.shields.io/github/workflow/status/<YOUR_GITHUB>/<YOUR_REPO>/Node.js%20CI?style=flat-square)
+=======
+![Stars](https://img.shields.io/github/stars/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+![License](https://img.shields.io/github/license/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+
+![CI](https://github.com/WhisTech/GDG-Solution-challenge/actions/workflows/main.yml/badge.svg)
+>>>>>>> 42ce110acdcfc407e8b7f8a701751154b621df41
 
 ---
 
