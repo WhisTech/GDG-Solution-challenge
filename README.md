@@ -19,7 +19,6 @@ A modern, AI-augmented supply chain management platform for enterprises & SMEs, 
 ## 🚀 Live Demo
 
 - **Frontend:** [https://bts-supply-chain-frontend.onrender.com](https://bts-supply-chain-frontend.onrender.com)
-- **Backend:** [<YOUR_BACKEND_DEPLOYMENT_URL>](<YOUR_BACKEND_DEPLOYMENT_URL>) <!-- Replace with actual backend link once available -->
 - 🧪 **Try it out!** Register or log in to explore the dashboard, inventory, orders, and analytics features in action.
 
 ---
