@@ -2,8 +2,10 @@
 
 ![Stars](https://img.shields.io/github/stars/WhisTech/GDG-Solution-challenge?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/WhisTech/GDG-Solution-challenge?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/WhisTech/GDG-Solution-challenge?style=for-the-badge)
 ![License](https://img.shields.io/github/license/WhisTech/GDG-Solution-challenge?style=for-the-badge)
-![Node.js CI](https://img.shields.io/github/workflow/status/<YOUR_GITHUB>/<YOUR_REPO>/Node.js%20CI?style=flat-square)
+
+![CI](https://github.com/WhisTech/GDG-Solution-challenge/actions/workflows/main.yml/badge.svg)
 
 ---
 
